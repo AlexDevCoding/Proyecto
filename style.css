@@ -1,0 +1,70 @@
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  /* Estilos del menú de navegación */
+  .main-nav {
+    background-color: #333;
+    padding: 10px;
+  }
+
+  .main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .main-nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .main-nav a:hover {
+    color: #ddd;
+  }
+
+  /* Estilos del menú desplegable */
+  .main-nav .sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .main-nav .sub-menu li {
+    display: block;
+  }
+
+  .main-nav .sub-menu a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+  }
+
+  .main-nav .sub-menu a:hover {
+    background-color: #ddd;
+  }
+
+  /* Estilos del estado activo */
+  .main-nav .active {
+    color: #ddd;
+  }
+
+  /* Estilos para dispositivos móviles */
+  @media screen and (max-width: 600px) {
+    .main-nav li {
+      display: block;
+    }
+
+    .main-nav .sub-menu {
+      display: block;
+    }
+  }
