@@ -1,21 +1,18 @@
   /* Estilos generales */
   body {
-    font-family: Arial, sans-serif;
+      font-family: Arial, sans-serif;
       margin: 0px;
       padding: 0px;
-background-image: url(img/wp3741264-black-ops-4-hd-wallpapers.jpg);
-background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
+      background-image: url(img/wp4739343-games-2019-wallpapers.jpg);
+      background-size: cover;
+      background-position: center;
 
 }
 
   /* Estilos del menú de navegación */
   .main-nav {
-    background-color: #333;
-    padding: 10px;list-style-type: none;
+    padding: 32px;list-style-type: none;
     margin: 0;
-    background-color: #333;
     overflow: hidden;
     display: flex;
     justify-content: flex-end;
@@ -33,7 +30,11 @@ background-size: cover;
     margin-right: 10px;
     
   }
+.img-icon{
+  position: fixed;
+  top: 21px; left: 100px;
 
+}
   .main-nav a {
     color: white;
     text-decoration: none;
