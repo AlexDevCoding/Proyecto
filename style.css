@@ -1,23 +1,37 @@
   /* Estilos generales */
   body {
     font-family: Arial, sans-serif;
-  }
+      margin: 0px;
+      padding: 0px;
+background-image: url(img/wp3741264-black-ops-4-hd-wallpapers.jpg);
+background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+
+}
 
   /* Estilos del menú de navegación */
   .main-nav {
     background-color: #333;
-    padding: 10px;
+    padding: 10px;list-style-type: none;
+    margin: 0;
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
   }
 
   .main-nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+
   }
 
   .main-nav li {
     display: inline;
     margin-right: 10px;
+    
   }
 
   .main-nav a {
@@ -31,7 +45,7 @@
 
   /* Estilos del menú desplegable */
   .main-nav .sub-menu {
-    display: none;
+        display: flex;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -56,6 +70,7 @@
   /* Estilos del estado activo */
   .main-nav .active {
     color: #ddd;
+    position:calc(34px);
   }
 
   /* Estilos para dispositivos móviles */
