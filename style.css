@@ -4,9 +4,8 @@
       margin: 0px;
       padding: 0px;
       background-image: url(img/wp4739343-games-2019-wallpapers.jpg);
-      background-size: cover;
-      background-position: center;
-
+      background-size: 152%;
+background-position: top;
 }
 
   /* Estilos del menú de navegación */
