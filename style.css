@@ -1,0 +1,145 @@
+  /* Estilos generales */
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0px;
+      padding: 0px;
+      background-image: url(img/wp4739343-games-2019-wallpapers.jpg);
+      background-size: 152%;
+      background-position: top;
+}
+
+  /* Estilos del menú de navegación */
+  .main-nav {
+    padding: 32px;list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .main-nav li {
+    display: inline;
+    margin-right: 10px;
+    
+  }
+.img-icon{
+  position: fixed;
+  top: 21px; left: 100px;
+
+}
+  .main-nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .main-nav a:hover {
+    color: #ddd;
+  }
+
+  /* Estilos del menú desplegable */
+  .main-nav .sub-menu {
+        display: flex;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .main-nav .sub-menu li {
+    display: block;
+  }
+
+  .main-nav .sub-menu a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+  }
+
+  .main-nav .sub-menu a:hover {
+    background-color: #ddd;
+  }
+
+  /* Estilos del estado activo */
+  .main-nav .active {
+    color: #ddd;
+    position:calc(34px);
+  }
+
+  /* Estilos para dispositivos móviles */
+  @media screen and (max-width: 600px) {
+    .main-nav li {
+      display: block;
+    }
+
+    .main-nav .sub-menu {
+      display: block;
+    }
+  }
+
+  .video-triller{
+
+    margin-top: 0%;
+    margin-left: 59%;
+
+  }
+/* Estilos para el boton de comprar */
+  .miboton {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    position: fixed;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20%;
+    margin-top: -6%;
+  }
+  
+  /* Estilos del estado hover del boton */
+  .miboton:hover {
+    background-color: #45a049;
+  }
+  
+ /* Estilos del contenedor del titulo */
+  .contenedor1 {
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    margin-left: 20%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+
+  /* fuentes del parrafo */
+  .principal {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+/* fuentes del parrafo */
+  .principal2 {
+    line-height: 10px;
+    letter-spacing: 1px;
+  }
+
+  /* Estilos del contenedor 2 donde esta el parrafo */
+    .contenedor2 {
+    font-size: 14px;
+    width: 500px;
+    text-transform: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  span{
+Color: red;
+  }
+  
+ 
