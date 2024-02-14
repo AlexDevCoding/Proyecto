@@ -84,12 +84,11 @@
     }
   }
 
-  .video-triller{
+ 
 
-    margin-top: 0%;
-    margin-left: 59%;
+  
 
-  }
+
 /* Estilos para el boton de comprar */
   .miboton {
     padding: 10px 20px;
@@ -113,7 +112,7 @@
     font-size: 20px;
     color: white;
     position: absolute;
-    margin-left: 20%;
+    margin-left: 5%;
     letter-spacing: 5px;
     text-transform: uppercase;
   }
@@ -142,7 +141,9 @@
 Color: red;
   }
   
- 
+ .video{
+margin-right: 0% !important;
+ }
 
   
 /*:::::Pie de Pagina*/
@@ -155,11 +156,15 @@ Color: red;
 .pie-pagina .grupo-1{
     width: 100%;
     max-width: 1200px;
-    margin: auto;
-    display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:50px;
     padding: 45px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .pie-pagina .grupo-1 .box figure{
     width: 100%;
