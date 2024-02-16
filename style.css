@@ -150,7 +150,7 @@ margin-right: 0% !important;
 .pie-pagina{
     width: 100%;
     background-color: #0a141d;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 .pie-pagina .grupo-1{
