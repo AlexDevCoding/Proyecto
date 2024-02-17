@@ -1,4 +1,6 @@
   /* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
   body {
       font-family: Arial, sans-serif;
       margin: 0px;
@@ -6,6 +8,18 @@
       background-image: url(img/wp4739343-games-2019-wallpapers.jpg);
       background-size: 152%;
       background-position: top;
+      overflow-x: hidden;
+      
+}
+
+.card-text:last-child {
+  margin-bottom: 0px;
+  color: white;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+  color: white !important;
 }
 
   /* Estilos del menú de navegación */
@@ -30,8 +44,9 @@
     
   }
 .img-icon{
-  position: fixed;
-  top: 21px; left: 100px;
+  position: absolute;
+  top: 21px; 
+  left: 100px;
 
 }
   .main-nav a {
@@ -85,14 +100,12 @@
   }
 
  
-  .card{
-    background: #b2b8ff!important;
-  }
+  .card {
+    background: #282828!important;
+}
 
   
   
-
-
 /* Estilos para el boton de comprar */
   .miboton {
     padding: 10px 20px;
@@ -224,4 +237,10 @@ margin-right: 0% !important;
         grid-gap:30px;
         padding: 35px 0px;
     }
+}
+
+
+.card-title {
+  margin-bottom: 0.75rem;
+  color: #000000;
 }
