@@ -85,7 +85,11 @@
   }
 
  
+  .card{
+    background: #b2b8ff!important;
+  }
 
+  
   
 
 
@@ -111,9 +115,8 @@
   .contenedor1 {
     font-size: 20px;
     color: white;
-    position: absolute;
-    margin-left: 5%;
-    letter-spacing: 5px;
+    margin-left: 0%;
+    letter-spacing: 6px;
     text-transform: uppercase;
   }
 
@@ -125,7 +128,7 @@
 
 /* fuentes del parrafo */
   .principal2 {
-    line-height: 10px;
+    line-height: 31px;
     letter-spacing: 1px;
   }
 
@@ -145,13 +148,18 @@ Color: red;
 margin-right: 0% !important;
  }
 
-  
+  main{
+
+    padding: 2%;
+  }
 /*:::::Pie de Pagina*/
 .pie-pagina{
     width: 100%;
     background-color: #0a141d;
-    position: fixed;
+    position: relative;
     bottom: 0;
+    margin-top: 20px;
+
 }
 .pie-pagina .grupo-1{
     width: 100%;

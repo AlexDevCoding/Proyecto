@@ -23,3 +23,22 @@
     width: 40%;
     height: 50%;
   }
+<div class="contenedor1">
+  Play Your Batle Game
+  <h1 class="principal">
+  The Most <span>Powerfull</span></h1>
+   <h1 class="principal2">Theme form Gaming</h1>
+   <div class="contenedor2">
+    <p>Lorem ipsum dolor sit amet consectetur 
+     adipisicing elit. Modi, quo error nemo ipsum 
+     eius distinctio. Suscipit, quasi illum quae rerum 
+     autem ab nihil culpa! Voluptas, blanditiis. Quisquam 
+     velit laboriosam tenetur.</p>
+ </div>
+     </div>
+
+
+     <div>
+    <button class="miboton">Comprar Ahora</button>
+    
+    </div>
